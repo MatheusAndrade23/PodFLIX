@@ -59,5 +59,35 @@ section.inicial {
     min-height: 500px;
     border-bottom: 1px solid black;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+section.inicial > h2{
+
+    margin-left: 40px;
+}
+
+section.inicial > button{
+
+    margin-left: 40px;
+    height: 45px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+section.conteudo{
+
+    width: 100%;
+    height: auto;
+    border: 1px solid blue;
+}
+
+section.conteudo article{
+
+    width: 100%;
+    height: 250px;
+    border: 1px solid red;
+    margin: 10px 0px;
 }
