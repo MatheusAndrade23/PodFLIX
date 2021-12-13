@@ -5,9 +5,11 @@
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
+    font-family:'Open Sans';
 
     --cor-texto-1: #3d3d3d;
     --cor-texto-2: white;
+    --cor-texto-3: #e5e5e5;
     --cor-fundo-escuro: #141414;
     --vermelho-claro: #E50914;
     --vermelho--escuro: #B20710;
@@ -139,7 +141,7 @@ section.conteudo > article > h3{
 
     margin-left: 20px;
     font-size: 20px;
-    color: var(--cor-texto-2);
+    color: var(--cor-texto-3);
 }
 
 article > article{
