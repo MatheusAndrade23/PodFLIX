@@ -85,7 +85,7 @@ section.inicial {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background-image: url("../imagens/os_socios/socios_devo_investir_bitcoin.jpg");
+    background-image: url("../imagens/ciencia/gabriel_pato.jpg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: 100%;
@@ -141,11 +141,11 @@ section.conteudo > article > h3{
     font-size: 20px;
     color: var(--cor-texto-2);
 }
+
 article > article{
 
     width: 100%;
     height: 200px;
-    margin: 10px 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
