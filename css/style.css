@@ -49,10 +49,29 @@ header > nav > ul {
 
 header > nav > ul > li > a{
 
-    text-decoration: none;
     padding: 10px;
     color: var(--cor-texto-2);
     font-size: 18px;
+    position: relative;
+}
+
+header > nav > ul > li > a::after {
+
+    content: " ";
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    border-radius: 10px;
+    transition: all 150ms ease;
+    background: white;
+}
+
+header > nav > ul > li > a:hover::after {
+
+    left: 0%;
+    width: 100%;
 }
 
 .barra_pesquisa{
@@ -97,8 +116,16 @@ section.inicial > h2{
 
     margin-top: 180px;
     margin-left: 40px;
+    font-style: normal;
     font-size: 35px;
     color: var(--cor-texto-2);
+}
+
+section.inicial > p{
+
+    margin-top: 10px;
+    color: var(--cor-texto-2);
+    margin-left: 40px;
 }
 
 section.inicial > button{
@@ -106,7 +133,7 @@ section.inicial > button{
     margin-left: 40px;
     height: 50px;
     width: 120px;
-    margin-top: 120px;
+    margin-top: 20px;
     color: var(--cor-texto-2);
     background-color: transparent;
     border: 2px solid white;
@@ -139,7 +166,7 @@ section.conteudo > article{
 
 section.conteudo > article > h3{
 
-    margin-left: 20px;
+    margin-left: 30px;
     font-size: 20px;
     color: var(--cor-texto-3);
 }
@@ -157,4 +184,32 @@ article > article{
 figure > img{
 
     width: 300px;
+}
+
+footer{
+
+    margin-top: 75px;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer > div > a > i{
+
+    padding: 5px;
+    font-size: 40px;
+    color: var(--cor-texto-2);
+}
+
+.fa-github{
+
+    margin-left: 10px;
+}
+
+footer > p{
+
+    color: var(--cor-texto-2);
+    margin-top: 10px;
 }
