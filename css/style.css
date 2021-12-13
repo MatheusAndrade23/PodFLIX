@@ -4,11 +4,13 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    scroll-behavior: smooth;
 
     --cor-texto-1: #3d3d3d;
     --cor-texto-2: white;
     --cor-fundo-escuro: #141414;
-
+    --vermelho-claro: #E50914;
+    --vermelho--escuro: #B20710;
 }
 
 html, body{
@@ -25,13 +27,14 @@ header{
     height: 70px;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--cor-fundo-escuro);
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
 }
 
 header > h1 {
 
     margin-left: 20px;
-    color: var(--cor-texto-2);
+    color: var(--vermelho-claro);
 }
 
 header > nav > ul {
@@ -58,6 +61,17 @@ header > nav > ul > li > a{
     border: 2px solid white;
 }
 
+header > nav > ul button{
+
+    color: var(--cor-texto-2);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 7px;
+}
+
 main{
 
     width: 100%;
@@ -66,44 +80,52 @@ main{
 section.inicial {
 
     width: 100%;
-    min-height: 500px;
+    min-height: 760px;
     display: flex;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background-image: url("../imagens/socios_devo_bitcoin.jpg");
+    background-image: url("../imagens/os_socios/socios_devo_investir_bitcoin.jpg");
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 60%;
+    background-size: 100%;
 }
 
 section.inicial > h2{
 
+    margin-top: 180px;
     margin-left: 40px;
+    font-size: 35px;
     color: var(--cor-texto-2);
 }
 
 section.inicial > button{
 
     margin-left: 40px;
-    height: 45px;
-    width: 100px;
-    margin-top: 300px;
+    height: 50px;
+    width: 120px;
+    margin-top: 120px;
     color: var(--cor-texto-2);
     background-color: transparent;
     border: 2px solid white;
     border-radius: 15px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 20px;
+    transition: 0.5s;
+}
 
+section.inicial > button:hover{
+
+    color: var(--cor-texto-1);
+    background-color: white;
 }
 
 section.conteudo{
 
     width: 100%;
     height: auto;
-    background-color: var(--cor-fundo-escuro);
     padding: 15px 0px;
+    margin-top: -100px;
 }
 
 section.conteudo > article{
@@ -115,12 +137,22 @@ section.conteudo > article{
 
 section.conteudo > article > h3{
 
+    margin-left: 20px;
+    font-size: 20px;
     color: var(--cor-texto-2);
 }
 article > article{
 
     width: 100%;
     height: 200px;
-    border: 1px solid white;
     margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+figure > img{
+
+    width: 300px;
 }
