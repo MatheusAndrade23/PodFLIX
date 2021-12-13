@@ -6,6 +6,7 @@
 
     --cor-texto-1: #3d3d3d;
     --cor-texto-2: white;
+    --cor-fundo-escuro: #141414;
 
 }
 
@@ -20,14 +21,15 @@ header{
     flex-direction: row;
     width: 100%;
     height: 70px;
-    border-bottom: 1px solid black;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--cor-fundo-escuro);
 }
 
 header > h1 {
 
     margin-left: 20px;
+    color: var(--cor-texto-2);
 }
 
 header > nav > ul {
@@ -62,11 +64,16 @@ section.inicial {
     justify-content: center;
     display: flex;
     flex-direction: column;
+    background-image: url("../imagens/socios_devo_bitcoin.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 60%;
 }
 
 section.inicial > h2{
 
     margin-left: 40px;
+    color: var(--cor-texto-2);
 }
 
 section.inicial > button{
@@ -81,13 +88,25 @@ section.conteudo{
 
     width: 100%;
     height: auto;
-    border: 1px solid blue;
+    background-color: var(--cor-fundo-escuro);
+    padding: 15px 0px;
 }
 
-section.conteudo article{
+section.conteudo > article{
 
     width: 100%;
     height: 250px;
-    border: 1px solid red;
+    margin: 10px 0px;
+}
+
+section.conteudo > article > h3{
+
+    color: var(--cor-texto-2);
+}
+article > article{
+
+    width: 100%;
+    height: 200px;
+    border: 1px solid white;
     margin: 10px 0px;
 }
