@@ -222,9 +222,16 @@ article > article > button > i{
     color: var(--cor-texto-3);
 }
 
-figure > img{
+figure  img{
 
     width: 300px;
+    cursor: pointer;
+    transition: .25s;
+}
+
+figure  img:hover{
+
+    width: 350px;
 }
 
 footer{
