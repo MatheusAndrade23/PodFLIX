@@ -222,7 +222,7 @@ article > article > button > i{
     color: var(--cor-texto-3);
 }
 
-figure  img{
+figure img{
 
     width: 300px;
     cursor: pointer;
