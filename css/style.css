@@ -31,6 +31,7 @@ header{
     align-items: center;
     background-color: rgba(0, 0, 0, 0.4);
     position: fixed;
+    z-index: 10;
 }
 
 header > h1 {
@@ -183,13 +184,25 @@ article > article{
 
 article > article > button{
 
-    border: none;
+    border: 1px solid transparent;
+    border-radius: 50%;
     background-color: transparent;
     cursor: pointer;
-    height: 60px;
+    height: 65px;
     width: 60px;
     position: absolute;
     right: 0;
+    text-align: center;
+    transition: .15s;
+    font-size: 37px;
+    z-index: 1;
+}
+
+article > article > button:hover{
+
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    font-size: 43px;
 }
 
 button.left{
@@ -199,8 +212,7 @@ button.left{
 
 article > article > button > i{
 
-    font-size: 60px;
-    color: rgba(0, 0, 0, 0.9);
+    color: var(--cor-texto-3);
 }
 
 figure > img{
