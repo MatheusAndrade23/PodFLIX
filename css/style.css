@@ -181,6 +181,28 @@ article > article{
     justify-content: space-evenly;
 }
 
+article > article > button{
+
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    right: 0;
+}
+
+button.left{
+
+    left: 0;
+}
+
+article > article > button > i{
+
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
 figure > img{
 
     width: 300px;
