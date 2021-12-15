@@ -104,6 +104,7 @@ header > nav > ul button:hover{
 main{
 
     width: 100%;
+    overflow-x: hidden;
 }
 
 section.inicial {
@@ -168,8 +169,11 @@ section.conteudo{
 section.conteudo > article{
 
     width: 100%;
-    height: 250px;
+    height: 260px;
     margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 section.conteudo > article > h3{
@@ -187,9 +191,10 @@ article > article{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    position: relative;
 }
 
-article > article > button{
+article > button{
 
     border: 1px solid transparent;
     border-radius: 50%;
@@ -205,19 +210,14 @@ article > article > button{
     z-index: 1;
 }
 
-article > article > button:hover{
+article > button:hover{
 
     background-color: rgba(0, 0, 0, 0.7);
     border: 1px solid rgba(0, 0, 0, 0.7);
     font-size: 43px;
 }
 
-button.left{
-
-    left: 0;
-}
-
-article > article > button > i{
+article > button > i{
 
     color: var(--cor-texto-3);
 }
@@ -232,6 +232,11 @@ figure img{
 figure  img:hover{
 
     width: 330px;
+}
+
+section > article > article.hidden img{
+
+    display: none;
 }
 
 footer{
