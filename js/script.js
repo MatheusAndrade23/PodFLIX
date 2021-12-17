@@ -1,4 +1,4 @@
-var assistir = document.querySelector('#assistir');
+const assistir = document.querySelector('#assistir');
 
 assistir.addEventListener("click", function () {
 
