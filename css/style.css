@@ -283,6 +283,18 @@ footer > p{
 
         height: 570px;
     }
+    figure img{
+
+        width: 250px;
+    }
+    figure img:hover{
+
+        width: 270px;
+    }
+    section.conteudo > article{
+
+        margin: 0px;
+    }
 }
 
 @media (max-width: 1100px){
@@ -291,6 +303,18 @@ footer > p{
 
         height: 550px;
     }
+}
+@media (max-width: 1050px){
+
+    figure img{
+
+        width: 240px;
+    }
+    figure img:hover{
+
+        width: 260px;
+    }
+
 }
 
 @media (max-width: 980px){
@@ -459,6 +483,6 @@ footer > p{
 
     section.inicial{
     
-        height: 200px;
+        height: 240px;
     }
 }
