@@ -297,8 +297,9 @@ footer > p{
         align-items: center;
     }
 
-    article > article{
-    
+    article > article, section.criadores{
+        
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -390,7 +391,8 @@ footer > p{
 
         margin-top: -100px;
     }
-    section.conteudo > article > h3{
+    section.conteudo > article > h3, 
+    section.criadores > h3{
 
         font-size: 15px;
         margin-left: 20px;
@@ -413,5 +415,12 @@ footer > p{
     section.inicial > p{
 
         font-size: 12px;
+    }
+}
+@media (max-width: 450px){
+
+    section.inicial{
+    
+        height: 200px;
     }
 }
