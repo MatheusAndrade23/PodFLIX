@@ -85,20 +85,20 @@ main{
 section.inicial {
 
     width: 100%;
-    min-height: 760px;
+    height: calc(100vh + 50px);
     display: flex;
     justify-content: center;
     display: flex;
     flex-direction: column;
     background-image: url("../imagens/ciencia/gabriel_pato.jpg");
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: top;
     background-size: 100%;
 }
 
 section.inicial > h2{
 
-    margin-top: 180px;
+    margin-top: 15%;
     margin-left: 40px;
     font-style: normal;
     font-size: 35px;
