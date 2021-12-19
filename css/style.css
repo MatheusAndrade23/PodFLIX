@@ -277,6 +277,14 @@ footer > p{
 
 /* -- -- RESPONSIVO -- -- */
 
+@media (max-width: 1200px){
+
+    section.inicial{
+
+        height: 570px;
+    }
+}
+
 @media (max-width: 1100px){
 
     section.inicial{
@@ -359,6 +367,21 @@ footer > p{
     
         height: 370px;
     }
+    header{
+
+        height: 50px;
+    }
+    header > h1{
+
+        font-size: 25px;
+    }
+    header > nav > ul > li > a{
+
+        padding: 10px;
+        color: var(--cor-texto-2);
+        font-size: 15px;
+        position: relative;
+    }
 }
 
 @media (max-width: 580px){
@@ -415,6 +438,21 @@ footer > p{
     section.inicial > p{
 
         font-size: 12px;
+    }
+    header{
+
+        height: 40px;
+    }
+    header > h1{
+
+        font-size: 22px;
+    }
+    header > nav > ul > li > a{
+
+        padding: 10px;
+        color: var(--cor-texto-2);
+        font-size: 13px;
+        position: relative;
     }
 }
 @media (max-width: 450px){
