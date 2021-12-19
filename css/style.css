@@ -295,17 +295,31 @@ footer > p{
 
         height: 500px;
     }
+    section.conteudo > article{
+
+        justify-content: center;
+        align-items: center;
+    }
+
     article > article{
     
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    figure, figure a{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     figure img{
 
-        width: 70%;
+        width: 80%;
     }
     figure img:hover{
 
-        width: 75%;
+        width: 85%;
     }
 }
 @media (max-width: 870px){
