@@ -85,7 +85,7 @@ main{
 section.inicial {
 
     width: 100%;
-    height: calc(100vh + 50px);
+    height: 700px;
     display: flex;
     justify-content: center;
     display: flex;
@@ -136,7 +136,6 @@ section.inicial > button:hover{
 section.conteudo{
 
     width: 100%;
-    height: auto;
     padding: 15px 0px;
     margin-top: -100px;
     transition: .25s ease;
@@ -161,12 +160,10 @@ section.conteudo > article > h3{
 article > article{
 
     width: 100%;
-    height: 200px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    position: relative;
 }
 
 article > button{
@@ -202,14 +199,20 @@ article.hidden{
     display: none;
 }
 
+figure, figure a{
+
+    width: 100%;
+}
+
 figure img{
 
     width: 300px;
     cursor: pointer;
     transition: .25s;
+    margin-top: 10px;
 }
 
-figure  img:hover{
+figure img:hover{
 
     width: 330px;
 }
@@ -274,4 +277,117 @@ footer > p{
     margin-top: 10px;
     font-size: 17px;
     cursor: default;
+}
+
+/* -- -- RESPONSIVO -- -- */
+
+@media (max-width: 1100px){
+
+    section.inicial{
+
+        height: 550px;
+    }
+}
+
+@media (max-width: 980px){
+
+    section.inicial{
+
+        height: 500px;
+    }
+    article > article{
+    
+        flex-direction: column;
+    }
+    figure img{
+
+        width: 70%;
+    }
+    figure img:hover{
+
+        width: 75%;
+    }
+}
+@media (max-width: 870px){
+
+    section.inicial{
+
+        height: 450px;
+    }
+    section.inicial > button{
+
+        height: 40px;
+        width: 110px;
+        font-size: 17px;
+    }
+    section.inicial > h2{
+
+        font-size: 30px;
+    }
+    section.inicial > p{
+
+        font-size: 15px;
+    }
+    section.conteudo{
+
+        margin-top: -80px;
+    }
+
+}
+@media (max-width: 770px){
+
+    section.inicial{
+
+        height: 400px;
+    }
+}
+
+@media (max-width: 680px){
+
+    section.inicial{
+    
+        height: 370px;
+    }
+}
+
+@media (max-width: 580px){
+
+    section.inicial{
+    
+        height: 320px;
+    }
+    section.inicial > button{
+
+        height: 30px;
+        width: 100px;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    section.inicial > h2{
+
+        font-size: 25px;
+        margin-top: 7%;
+        margin-left: 20px;
+    }
+    section.inicial > p{
+
+        font-size: 13px;
+        margin-left: 20px;
+    }
+    section.conteudo{
+
+        margin-top: -100px;
+    }
+    section.conteudo > article > h3{
+
+        font-size: 15px;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 480px){
+
+    section.inicial{
+    
+        height: 250px;
+    }
 }

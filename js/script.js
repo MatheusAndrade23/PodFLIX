@@ -9,7 +9,7 @@ assistir.addEventListener("click", function () {
 const fbutton = document.querySelector('#fbutton');
 var controle1 = 0;
 
-const sbutton = document.querySelector('#sbutton');
+const sbutton = document.querySelector('#sbutton');   
 var controle2 = 0;
 
 const tbutton = document.querySelector('#tbutton');
