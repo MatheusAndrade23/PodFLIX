@@ -4,7 +4,7 @@
  
 <br>
  
-![inicial](https://user-images.githubusercontent.com/84635540/146689126-d524c235-7d4e-42c6-ad26-7810a49b0a38.png)
+ <img src="imagens/podflix.gif">
 
 <br>
 <h2>Tecnologias Utilizadas:</h2>
