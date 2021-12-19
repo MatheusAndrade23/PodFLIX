@@ -1,7 +1,9 @@
 # PodFLIX
 
 ### Um site simples inspirado na Netflix, porém, ao invés de séries e filmes, contém os podcasts que eu mais gosto e seu criadores!
-
+ 
+<br>
+ 
 ![inicial](https://user-images.githubusercontent.com/84635540/146689126-d524c235-7d4e-42c6-ad26-7810a49b0a38.png)
 
 <br>
