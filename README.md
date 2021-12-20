@@ -9,7 +9,7 @@
 <br>
 <h2>Tecnologias Utilizadas:</h2>
  
- #### Linguagens: `HTML` , `CSS` e `JavaScript`!
+ #### Linguagens: `HTML`, `CSS` e `JavaScript`!
  
  #### Hospedagem: `Firebase`!
  
